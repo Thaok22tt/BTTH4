@@ -1,7 +1,7 @@
 const triangle = document.getElementById('triangle');
 const details = document.getElementById('details');
 
-let isDetailsShown = false; // Flag to track visibility state
+let isDetailsShown = false;
 
 triangle.addEventListener('click', () => {
   if (isDetailsShown) {
